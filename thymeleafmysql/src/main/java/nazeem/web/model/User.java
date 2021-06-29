@@ -19,6 +19,7 @@ public class User {
         this.password = password;
         this.roles = roles;
         this.active=true;
+        
     }
 
 
@@ -27,7 +28,7 @@ public class User {
     @Column(name = "user_id")
     private Long id;
 
-
+    private Long id1;
 
     public Long getId() {
         return id;
